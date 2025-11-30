@@ -30,5 +30,5 @@ Created by **J** 💻
 ---
 
 ### 🔗 Try it out:
-👉 [Live Demo](#) *(https://joyboy-koder.github.io/js-project-03-randomBackgroundColor/)*  
+👉 [Live Demo](#) *(https://joyboy-koder.github.io/joyScript/)*  
 
