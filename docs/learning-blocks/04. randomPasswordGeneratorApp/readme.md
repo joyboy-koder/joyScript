@@ -36,7 +36,8 @@ This project was built as part of my JavaScript learning journey — focusing on
 ---
 
 ## 🌍 Live Demo
-[Click Here to Try It](#) *(https://joyboy-koder.github.io/js-project-04-randomPasswordGeneratorApp/)*  
+> Click link, Search or click "randomPasswordGeneratorApp" and enjoy!
+[Click Here to Try It](#) *(https://joyboy-koder.github.io/joyScript/)*  
 
 ---
 
