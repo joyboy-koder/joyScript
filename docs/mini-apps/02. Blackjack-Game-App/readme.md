@@ -22,5 +22,6 @@ This project demonstrates basic game logic, random number generation, and intera
 - Basic game state management
 
  ## 🌐 Live Demo
- > https://joyboy-koder.github.io/Blackjack-game-App/
+ > Click link. Search or click "BlackJack Game App" and enjoy!
+ > https://joyboy-koder.github.io/joyScript/
 
