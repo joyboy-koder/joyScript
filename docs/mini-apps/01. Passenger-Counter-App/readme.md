@@ -17,4 +17,5 @@ A simple web app built with **HTML**, **TailwindCSS**, and **JavaScript** that a
 - **JavaScript** - Functionality
 
  ## 🌐 Live Demo
-> https://joyboy-koder.github.io/Passenger-Counter-App/
+> Click link. Search or click on "Passenger Counter App" and enjoy!
+> https://joyboy-koder.github.io/joyScript/
