@@ -27,4 +27,5 @@ It helped me understand how to collect user input and display it dynamically usi
 ---
 
 ## 🌐 Live Demo
-> https://joyboy-koder.github.io/js-project-01-alert-message/
+> Click link below, Search or Click "alertMessage" and enjoy!
+> https://joyboy-koder.github.io/joyScript/
