@@ -25,3 +25,8 @@ Built with **HTML, CSS, and Vanilla JavaScript**, this app also works as a **loc
 
 ## 🧠 This project was built with guidance and examples while I was learning Javascript.
 ## I modified and tested everything myself to understand how it works.
+
+
+## Live Demo
+ > Click link. Search or click "Chrome Lead Tracker App" and enjoy!
+ > https://joyboy-koder.github.io/joyScript/
