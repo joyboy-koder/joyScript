@@ -143,7 +143,7 @@
             display: flex;
             flex-direction: column;
             gap: 12px;
-            min-height: 140px;
+            
         }
 
         .card:hover {
@@ -159,10 +159,9 @@
         }
 
         .tag {
-            display: inline-flex;
+            display: flex;
             align-items: center;
-            gap: 8px;
-            padding: 6px 10px;
+            padding: 6px 0px;
             border-radius: 999px;
             font-size: 13px;
             background: linear-gradient(90deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
@@ -176,12 +175,7 @@
             letter-spacing: -0.3px;
         }
 
-        .desc {
-            color: var(--muted);
-            font-size: 13px;
-            line-height: 1.4;
-            flex: 1;
-        }
+        
 
         .actions {
             display: flex;
@@ -204,13 +198,6 @@
             transform: translateZ(0);
         }
 
-        .btn.ghost {
-            background: transparent;
-            color: var(--muted);
-            border: 1px solid rgba(255, 255, 255, 0.03);
-            box-shadow: none;
-            font-weight: 600;
-        }
 
         footer {
             margin-top: 28px;
@@ -220,11 +207,6 @@
             padding: 18px 10px;
         }
 
-        /* small helpers */
-        .small {
-            font-size: 12px;
-            color: var(--muted)
-        }
 
         @media (max-width:520px) {
             .search {
@@ -270,82 +252,85 @@
                 
 
                 
-                <article class="card" data-tags="learning,small,practice">
+                <article class="card">
                     <div class="meta">
                         <div class="tag">learning-blocks</div>
                     </div>
                     <div class="name">alertMessage</div>
-                    <div class="desc">A tiny experiment showing state with buttons. Great for understanding event
-                        listeners and DOM updates.</div>
                     <div class="actions">
-                        <a class="btn" href="./learning-blocks/counter/">Open</a>
-                        <a class="btn ghost" href="#">Notes</a>
+                        <a class="btn" href="./learning-blocks/01. alertMessage/" target="_blank">Open</a>    
                     </div>
                 </article>
 
-                <article class="card" data-tags="learning,events,dom">
+                <article class="card">
                     <div class="meta">
                         <div class="tag">learning-blocks</div>
-                        <div class="small">DOM basics</div>
                     </div>
-                    <div class="name">Array Playground</div>
-                    <div class="desc">Visual experiments with arrays: add, remove, and visualize elements dynamically.
-                    </div>
+                    <div class="name">DOM Greeter</div>
                     <div class="actions">
-                        <a class="btn" href="./learning-blocks/array-playground/">Open</a>
-                        <a class="btn ghost" href="#">Notes</a>
+                        <a class="btn" href="./learning-blocks/02. DOM Greeter/" target="_blank">Open</a>
                     </div>
                 </article>
 
-                <!-- Example: Mini Apps -->
-                <article class="card" data-tags="app,todo,mini-app">
+                <article class="card">
+                    <div class="meta">
+                        <div class="tag">learning-blocks</div>
+                    </div>
+                    <div class="name">randomBackgroundColor</div>
+                    <div class="actions">
+                        <a class="btn" href="./learning-blocks/03. randomBackgroundColor/" target="_blank">Open</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="meta">
+                        <div class="tag">learning-blocks</div>
+                    </div>
+                    <div class="name">randomPasswordGeneratorApp</div>
+                    <div class="actions">
+                        <a class="btn" href="./learning-blocks/04. randomPasswordGeneratorApp/" target="_blank">Open</a>
+                    </div>
+                </article>
+
+
+
+                <!-- Mini Apps -->
+                <article class="card">
                     <div class="meta">
                         <div class="tag">mini-apps</div>
-                        <div class="small">Practical app</div>
                     </div>
-                    <div class="name">To-Do App</div>
-                    <div class="desc">A small to-do application demonstrating localStorage, CRUD operations, and clean
-                        UI.</div>
+                    <div class="name">Passenger Counter App</div>
                     <div class="actions">
-                        <a class="btn" href="./mini-apps/todo-app/">Open</a>
-                        <a class="btn ghost" href="#">Notes</a>
+                        <a class="btn" href="./mini-apps/01. Passenger-Counter-App/" target="_blank">Open</a>
                     </div>
                 </article>
 
-                <article class="card" data-tags="app,calc,mini-app">
+                <article class="card">
                     <div class="meta">
                         <div class="tag">mini-apps</div>
-                        <div class="small">Utility</div>
                     </div>
-                    <div class="name">Calculator</div>
-                    <div class="desc">A lightweight calculator with keyboard support and responsive layout.</div>
+                    <div class="name">BlackJack Game App</div>
                     <div class="actions">
-                        <a class="btn" href="./mini-apps/calculator/">Open</a>
-                        <a class="btn ghost" href="#">Notes</a>
+                        <a class="btn" href="./mini-apps/02. Blackjack-Game-App/" target="_blank">Open</a>
                     </div>
                 </article>
 
-                <!-- Placeholder / Editable card -->
-                <article class="card" data-tags="placeholder">
+        
+                <article class="card">
                     <div class="meta">
                         <div class="tag">add-your-project</div>
-                        <div class="small">Edit this card</div>
                     </div>
-                    <div class="name">Project-Name</div>
-                    <div class="desc">Replace this card with a project from your repo. Edit href to ./FOLDER_NAME/ and
-                        update details.</div>
+                    <div class="name">Chrome Lead Tracker App</div>
                     <div class="actions">
-                        <a class="btn" href="./your-folder/">Open</a>
-                        <a class="btn ghost" href="#">Notes</a>
+                        <a class="btn" href="./mini-apps/03. Chrome-Lead-Tracker/" target="_blank">Open</a>
                     </div>
                 </article>
             </div>
         </main>
 
         <footer>
-            <div>Tip: open any card to view its demo. To add more cards, copy a card block and update the link
-                (./FOLDER_NAME/) and details.</div>
-            <div style="margin-top:8px;color:var(--muted)">JoyScript — made with curiosity by Kev</div>
+            <div>Open any card to view its demo.</div>
+            <div style="margin-top:8px;color:var(--muted)">JoyScript : made with curiosity by JoyboyKoder</div>
         </footer>
     </div>
 
