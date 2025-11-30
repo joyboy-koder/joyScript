@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>randomPasswordGenerator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="px-6 relative bg-gray-900 min-h-screen flex flex-col justify-center items-center">
+
+    <div class="absolute top-0 right-0">
+        <img class="w-24 transform -translate-y-4 translate-x-4" src="./logotw.png" alt="joko logo">
+    </div>
+
+
+    <div class="bg-gray-900 border-1 md:border-5 border-gray-100 shadow-xl md:py-36 md:px-12 py-24 px-8 rounded-xl">
+
+        <h1 class="sm:pl-6 text-3xl md:text-5xl font-bold tracking-tight text-white">Generate a</h1>
+        <h1 class="sm:pl-6 text-3xl md:text-5xl font-bold tracking-tight text-green-400 mb-2">random passwords</h1>
+        <p class="text-xl md:text-2xl  text-gray-400 mb-8 md:mb-12">Never use an insecure password again.</p>
+
+        <button
+            class="select-none touch-none focus:outline-none active:scale-95 px-3 md:w-48 py-2 rounded-lg text-gray-100 font-bold text-center bg-green-400 mb-8"
+            onclick="generate()">Generate passwords</button>
+        <hr class="text-gray-800">
+
+        <center>
+            <div class="md:flex  justify-between items-center md:space-x-6">
+                <input class="bg-gray-800 p-2 text-center mt-8 rounded-lg text-green-400" id="input1-el"> <input
+                    class="bg-gray-800 p-2 text-center mt-8 rounded-lg text-green-400" id="input2-el">
+            </div>
+        </center>
+    </div>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
